@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="currency.js"></script>
+    <script src="https://kit.fontawesome.com/cc858977aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h3>Currency Exchanger</h3>
+        <div class="top-main">
+            <div class="input-div">
+                <label for="amount">Amount:</label><br>
+                <input type="text" id="amount" value="1">
+            </div>
+            <button>Convert</button>
+        </div>
+        <main class="display">
+            <div id="from-div">
+                <select name="from" id="from">
+                </select>
+                <div class="display">
+                    <img src="https://flagcdn.com/28x21/us.png" alt="fromFlag">
+                </div>
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i>
+            <div id="to-div">
+                <select name="from" id="to">
+
+                </select>
+                <div class="display">
+                    <img src="https://flagcdn.com/28x21/in.png" alt="toFlag">
+                </div>
+            </div>
+        </main>
+        <div class="result">
+            <p>1USD = 80INR</p>
+        </div>
+    </div>       
+    
+</body>
+</html>
